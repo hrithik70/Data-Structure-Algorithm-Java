@@ -10,12 +10,14 @@ public class Main {
         linkedList.insertAtBeginning("Java");
 
         System.out.println("-----------Insertion At Beginning ----------");
-        linkedList.printLinkedList(); // Java->3.84->true->Hrithik Raj->1->null
+        linkedList.printLinkedList();
+
 
         System.out.println("-----------Insertion At Last ----------");
         linkedList.insertAtLast("Last Element");
-        linkedList.printLinkedList(); // Java->3.84->true->Hrithik Raj->1->Last Element->null
+        linkedList.printLinkedList();
 
-
+        linkedList.getSize();
+        linkedList.getMiddleElement();
     }
 }
