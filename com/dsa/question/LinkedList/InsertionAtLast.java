@@ -8,19 +8,14 @@ public class InsertionAtLast {
 
     Node head;
 
-    public void insertAtLast(Object data)
-    {
+    public void insertAtLast(Object data) {
         Node newNode = new Node(data);
-        if(head == null)
-        {
-            head =newNode;
+        if (head == null) {
+            head = newNode;
             return;
-        }
-        else
-        {
+        } else {
             Node currentNode = head;
-            while (currentNode != null)
-            {
+            while (currentNode != null) {
                 currentNode = currentNode.nextNode;
             }
             currentNode = newNode;
