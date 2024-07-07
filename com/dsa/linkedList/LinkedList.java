@@ -62,4 +62,31 @@ public class LinkedList {
             System.out.println("Middle Element : ["+middleElement+"]");
         }
     }
+
+    public void findIndex(Object key)
+    {
+        Node currentNode = headNode;
+        int index =0;
+        while (currentNode != null)
+        {
+            if(currentNode.data.equals(key))
+            {
+                System.out.println("Index of " + key +" is ["+index+"]");
+            }
+            currentNode = currentNode.nextNode;
+            index++;
+        }
+    }
+
+    public void getMiddleNode()
+    {
+        Node currentNode = headNode;
+        List<Object> list = new ArrayList<>();
+        while (currentNode != null)
+        {
+            list.add(currentNode.data);
+            currentNode = currentNode.nextNode;
+        }
+        System.out.println("Middle Element : ["+list.get(list.size()/2)+"]");
+    }
 }

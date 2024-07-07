@@ -19,5 +19,7 @@ public class Main {
 
         linkedList.getSize();
         linkedList.getMiddleElement();
+        System.out.println("----------------- Search Index of Node -------------------");
+        linkedList.findIndex("Java");
     }
 }
