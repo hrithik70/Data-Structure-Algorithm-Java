@@ -1,9 +1,11 @@
-package com.dsa.question.LinkedList;
+package com.dsa.question.LinkedList.Insert;
+import com.dsa.question.LinkedList.Insert.Node;
 
 /*
 @Author
 Hrithik-Raj
  */
+
 
 public class InsertionBeginning {
 
