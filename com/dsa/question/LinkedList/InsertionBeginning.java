@@ -1,4 +1,4 @@
-package com.dsa.Question.LinkedList;
+package com.dsa.question.LinkedList;
 
 /*
 @Author
@@ -9,17 +9,15 @@ public class InsertionBeginning {
 
     Node head;
 
-    public void insertAtBeginning(Object data)
-    {
+    public void insertAtBeginning(Object data) {
         Node newNode = new Node(data);
-        newNode.nextNode =head;
-        head =newNode;
+        newNode.nextNode = head;
+        head = newNode;
     }
-    public void printList()
-    {
+
+    public void printList() {
         Node currentNode = head;
-        while (currentNode != null)
-        {
+        while (currentNode != null) {
             System.out.print(currentNode.data + "->");
             currentNode = currentNode.nextNode;
         }

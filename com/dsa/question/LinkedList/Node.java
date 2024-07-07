@@ -1,4 +1,4 @@
-package com.dsa.Question.LinkedList;
+package com.dsa.question.LinkedList;
 
 /*
 @Author
@@ -8,8 +8,7 @@ public class Node {
     Object data;
     Node nextNode;
 
-    Node(Object nodeData)
-    {
+    Node(Object nodeData) {
         this.data = nodeData;
     }
 }

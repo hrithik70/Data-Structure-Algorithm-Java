@@ -1,4 +1,4 @@
-package com.dsa.Question.LinkedList;
+package com.dsa.question.LinkedList;
 
 /*
 @Author
