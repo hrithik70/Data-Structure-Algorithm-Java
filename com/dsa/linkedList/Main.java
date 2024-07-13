@@ -21,5 +21,10 @@ public class Main {
         linkedList.getMiddleElement();
         System.out.println("----------------- Search Index of Node -------------------");
         linkedList.findIndex("Java");
+
+        linkedList.printLinkedList();
+        System.out.println("----------------- Insert at Specific Index of Node -------------------");
+        linkedList.insertAtIndex("Developer",2);
+        linkedList.printLinkedList();
     }
 }
