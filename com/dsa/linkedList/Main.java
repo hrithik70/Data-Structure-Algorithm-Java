@@ -26,5 +26,9 @@ public class Main {
         System.out.println("----------------- Insert at Specific Index of Node -------------------");
         linkedList.insertAtIndex("Developer",2);
         linkedList.printLinkedList();
+        System.out.println("----------------- Update at Specific Index of Node -------------------");
+        linkedList.updateNodeAtIndex(100,2);
+        linkedList.printLinkedList();
+
     }
 }

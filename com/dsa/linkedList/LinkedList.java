@@ -7,6 +7,18 @@ public class LinkedList {
 
     Node headNode;
 
+    public void updateNodeAtIndex(Object updateData, int index)
+    {
+        Node currentNode = headNode;
+        int count = 0;
+        while (currentNode != null && index>count)
+        {
+            currentNode = currentNode.nextNode;
+            count++;
+        }
+        currentNode.data = updateData;
+    }
+
     public void insertAtIndex(Object data, int index)
     {
         Node currentNode = headNode;
